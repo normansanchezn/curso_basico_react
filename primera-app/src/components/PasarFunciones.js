@@ -1,4 +1,5 @@
 import React from "react";
+import {Button} from "react-bootstrap"
 
 export default function PasarFunciones(props) {
 
@@ -10,7 +11,7 @@ export default function PasarFunciones(props) {
     return(
         <div>
             {/* Se usa una función anónima usando: {()=> props.saludarFn(props.userInfo.name)} */}
-            <button onClick={() => saludarFn(nombre)}>Saluldar</button>
+            <Button onClick={() => saludarFn(nombre)}>Saluldar</Button>
         </div>
     )
 }
