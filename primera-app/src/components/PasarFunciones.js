@@ -4,7 +4,7 @@ export default function PasarFunciones(props) {
 
     // Asignación por destructuring
     const { saludarFn, userInfo } = props
-    const { nombre } = userInfo
+    const { nombre = "Sin nombre" } = userInfo
 
     console.log(props);
     return(
