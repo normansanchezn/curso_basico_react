@@ -1,25 +1,17 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import HolaMundo, { AdiosMundo } from "./components/HolaMundo"
+// import HolaMundo, { AdiosMundo } from "./components/HolaMundo"
+import Saludar from "./components/Saludar"
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <HolaMundo />
-          <AdiosMundo />
-        </a>
+        <Saludar name="Norman Sánchez" />
+        <Saludar name="Android Developer" />
+        <Saludar name="Grupo Salinas" />
       </header>
     </div>
   );
