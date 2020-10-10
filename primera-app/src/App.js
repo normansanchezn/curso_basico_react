@@ -5,6 +5,7 @@ import './App.css';
 // import Saludar from "./components/Saludar"
 // import SaludarConObjetos from "./components/SaludarConObjetos"
 import PasarFunciones from "./components/PasarFunciones"
+import {ReactComponent as ReactIcon } from "./assets/react.svg";
 
 function App() {
 
@@ -28,7 +29,7 @@ function App() {
         <Saludar name="Grupo Salinas" /> */}
         {/* <SaludarConObjetos userInfo={user}/> */}
         <PasarFunciones userInfo={user} saludarFn={saludarFn}/>
-
+        <ReactIcon />
       </header>
     </div>
   );
